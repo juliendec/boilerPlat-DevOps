@@ -11,6 +11,7 @@ const exoplanetsRouter = require('./routes/exoplanets')
 const app = express()
 
 // register partials views
+
 // important to do that before set engine
 // BEFORE app.set('view engine', 'hbs');
 const hbs = require('hbs')
