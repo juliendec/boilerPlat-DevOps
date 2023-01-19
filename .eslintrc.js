@@ -3,7 +3,7 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: 'standard',
+  extends: ['prettier'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -11,3 +11,5 @@ module.exports = {
   },
   rules: {}
 }
+
+// extends: 'standard',

@@ -14,7 +14,6 @@ const app = express()
 // important to do that before set engine
 // BEFORE app.set('view engine', 'hbs');
 const hbs = require('hbs')
-// eslint-disable-next-line n/no-path-concat
 hbs.registerPartials(__dirname + '/views/partials')
 
 // view engine setup
