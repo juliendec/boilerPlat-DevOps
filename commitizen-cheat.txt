@@ -1,0 +1,5 @@
+si bug alors :
+bash :
+commitizen init cz-conventional-changelog --save-dev --save-exact
+
+/!\ erreur après commande, path, enlever "./node_modules/" enlever les nodes modules
