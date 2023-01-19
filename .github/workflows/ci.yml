@@ -3,7 +3,6 @@ name: DevOps Project 02 CI
 on:
     pull_request:
         branches: [main]
-    workflow_dispatch:
 
 jobs:
     install:
